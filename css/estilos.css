@@ -36,7 +36,8 @@ height: 36vh;}
       width: 180px;
   }
   
-  .menu { grid-area: 2 / 2 / 3 / 7; }
+  .menu { grid-area: 2 / 2 / 3 / 7; 
+    justify-content: flex-end}
 
   .menu nav ul li{
       display: inline-block;
