@@ -25,10 +25,19 @@
   color: black;
 }
 
-.navbar div ul li:hover{
-  transform: scale(2);
-  transition-property: all;
-  transition-duration: 2s;
+.img-fluid{
+  width: 200px;
+  height: 200px;
+}
+.cartas{
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 
