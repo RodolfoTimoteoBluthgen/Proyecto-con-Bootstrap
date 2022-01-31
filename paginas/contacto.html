@@ -4,63 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/4652135458.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
 </head>
 <body>
-    <div class="containerContacto">
-        <div class="techo"></div>
-        <div class="header"></div>
-        <div class="logo"><a href="../index.html"><img src="../imagenes/OS.png" alt="logo" class="logoMedidas"></a> </div>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="../paginas/ropa.html">Ropa</a></li>
-                    <li><a href="../paginas/galeria.html">Galeria</a></li>
-                    <li><a href="../paginas/novedades.html">Novedades</a></li>
-                    <li><a href="../paginas/contacto.html">Contacto</a></li>
-                </ul>
-            </nav> 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="./imagenes/OS.png" alt="" width="50" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/ropa.html">ROPA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/novedades.html">NOVEDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="piso"></div>
-        <div class="redes">
+      </nav>
+
+        <div class="container  bg-secondary bg-gradient">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                        Please choose a username.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">State</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                        Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                        You must agree before submitting.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>        
+
+
+      <nav class="navbar navbar-light bg-light">
+        <div>
             <ul>
                 <li> <i> <a href="https://www.instagram.com/lamovida_cr/?hl=es-la"><i class="fab fa-instagram"></i></a></i>    </li>
                 <li> <i> <a href="https://www.instagram.com/lamovida_cr/?hl=es-la"><i class="far fa-envelope"></i></a> </i>   </li>
                 <li> <i> <a href="https://www.instagram.com/lamovida_cr/?hl=es-la"><i class="fab fa-facebook-square"></i></a></i>    </li>
-                <li> <i> <a href="https://www.instagram.com/lamovida_cr/?hl=es-la"><i class="fab fa-instagram"></i></a></i>    </li> 
+                
             </ul>
         </div>
-        <div class="fotoPie"></div>
-        <div class="contactoForm">
-           <form class="formularios" action="destino.php" method="post">
-               <div><p>Nombre Completo</p>
-                <input class="formStyle" type="Nombre y Apellido" name="Nombre y Apellido" placeholder="Nombre y Apellido"></div>
-               <div><p>Correo Electronico</p>
-                <input class="formStyle" type="Email" name="Email" placeholder="Mail"></div>
-               <div><p>Sexo</p>		
-                <select  class="formStyle" name="Sexo">
-                <option value="Masculino"> Masculino </option>
-                <option value="Femenino"> Femenino </option>
-                <option value="No Contesta"> No responde </option> </select></div>
-               <div><p> Queres recibir informacion nuestra?</p>
-                <input class="formStyle" type="checkbox" name="acepta" value="1"></div>
-               <div>   <label class="formStyle" for="Observaciones">Observaciones:
-                <textarea class="formStyle" placeholder="Observaciones"></textarea>
-                </label> <br>	
-                <input class="formStyle" type="submit" value="Enviar Formulario">	
-                <input class="formStyle" type="reset" value="Limpiar Formulario">
-                <input class="formStyle" type="button" value="Sin acciones"></div>
-           </form>
+     </nav>   
 
-        </div>
-        <div class="publicidad">
-            <h3>Publicidad</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ipsa!</p>
-        </div>
-      </div>
-               
 
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

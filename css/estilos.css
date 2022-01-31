@@ -38,6 +38,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.contenedorNovedades{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-image: url(https://blogmujeres.com/wp-content/uploads/2019/11/marcas-de-moda-sostenible-istock4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }
 
 
