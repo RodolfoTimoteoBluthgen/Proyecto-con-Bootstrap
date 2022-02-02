@@ -1,57 +1,108 @@
-.col{
-  padding: 15px;
-}
 
-.navbar{
-  position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    flex-direction: row;
-    align-content: space-around;
-  }
-.navbar div ul li{
-  display: inline;
-  width: auto;
-  padding: 10px;
+/* Ajustes Index */
+
+
+
+.listaRedes div ul{
   text-decoration: none;
-  list-style-type: none;
-  color: black;
-}  
-.navbar div ul li a{
+  display: flex;
+
+}
+
+.listaRedes div ul li{
+  display: inline;
+  padding: 1em;
+}
+.listaRedes div ul li a{
   color: black;
 }
 
+.listaRedes div ul li a:hover{
+  transform: scale(2);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+/* Ajustes Estilos Ropa */
+
+.bodyRopa{
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-wood-grain-background-material-grain-backgroundsimplelight-colorwooden-image_67324.jpg);
+  background-attachment: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .img-fluid{
   width: 200px;
   height: 200px;
+  border-radius: 20%;
 }
 .cartas{
   display: flex;
-  padding: 5px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
-  align-items: center;
-}
-
-.contenedorNovedades{
-  display: flex;
+    padding: 4em;
+    margin: 3em;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    background-image: url(https://blogmujeres.com/wp-content/uploads/2019/11/marcas-de-moda-sostenible-istock4.jpg);
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20%;
+}
+
+.cartas div{
+  padding: 2px;
+  background-color: transparent;
+}
+
+.col{
+  padding: 15px;
+}
+.col p{
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Ajuste Estilo Contacto */
+
+.bodyContacto{
+  background-color: darkkhaki;
+}
+.formContacto{
+  padding: 5px;
+  background-color: transparent;
+  height: 80vh;
+  
+}
+
+/* Ajuste Estilos Novedades */
+
+.contenedorNovedades{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    background-image: url(https://besthqwallpapers.com/Uploads/18-6-2020/136535/thumb2-green-leaf-texture-green-eco-background-green-leaf-background-creative-green-background-leaf-green-texture.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+    justify-content: flex-start;
 }
+
+.contenedorNovedades .col{
+  color: blanchedalmond;
+  font-size: 1.25em;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
 
 
